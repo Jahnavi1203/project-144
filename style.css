@@ -1,0 +1,29 @@
+h3{
+    font-size: 35px !important;
+    font-family: monospace;
+    font-variant: small-caps;
+    background-color: darkcyan;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+
+.btn-success:hover{
+    background-color: red;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-stretch:extra-expanded;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes example{
+    from {box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
